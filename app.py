@@ -37,7 +37,7 @@ PAYPAL_API_BASE = "https://api-m.sandbox.paypal.com" if PAYPAL_MODE != "live" el
 st.markdown(
     """
     <head>
-        <meta name="google-site-verification" content="google-site-verification=B2r79yTSDLFa7jRKe7P6AwRo_8Lk3HYjdE6llmfsFbg" />
+        <meta name="google-site-verification" content="CALz7HPWEhHE3Hnirgb62FHq-QbGbfz7UH0HPu1qf3A" />
     </head>
     """,
     unsafe_allow_html=True
@@ -953,4 +953,5 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
+
 
