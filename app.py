@@ -34,6 +34,16 @@ PAYPAL_SECRET = os.getenv("PAYPAL_SECRET", "")
 PAYPAL_MODE = os.getenv("PAYPAL_MODE", "sandbox").lower().strip()  # sandbox | live
 PAYPAL_API_BASE = "https://api-m.sandbox.paypal.com" if PAYPAL_MODE != "live" else "https://api-m.paypal.com"
 
+st.markdown(
+    """
+    <head>
+        <meta name="google-site-verification" content="google-site-verification=B2r79yTSDLFa7jRKe7P6AwRo_8Lk3HYjdE6llmfsFbg" />
+    </head>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # =========================================================
 # OWNER INFO
 # =========================================================
@@ -943,3 +953,4 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
+
